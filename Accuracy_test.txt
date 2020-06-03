@@ -1,0 +1,43 @@
+Test 1
+
+Epsilon: 0.1
+COLUMNS = 1000
+ADJUSTER = 100
+
+Yield
+
+Integral Approx of 0 to 1 of f(x) = x**2 dx:  0.3325
+Integral Approx of 0 to 2 of f(x) = x**2 dx:  2.2847500000000007
+Integral Approx of 0 to 4 of f(x) = x**2 dx:  19.769750000000013
+Integral Approx of 0 to 16 of f(x) = x**2 dx:  1365.3199999999943
+
+
+
+
+
+
+
+Test 2
+
+EPSILON = 0.01
+COLUMNS = 1000
+ADJUSTER = 10
+
+Yield
+
+Integral Approx of 0 to 1 of f(x) = x**2 dx:  0.3234247500000003
+Integral Approx of 0 to 2 of f(x) = x**2 dx:  2.626849750000004
+Integral Approx of 0 to 4 of f(x) = x**2 dx:  21.33329999999973
+Integral Approx of 0 to 16 of f(x) = x**2 dx:  1365.3331999999532
+
+
+Test 3
+
+EPSILON = 0.0001
+COLUMNS = 1000000
+ADJUSTER = 100
+
+Integral Approx of 0 to 1 of f(x) = x**2 dx:  3.3333333249994324
+Integral Approx of 0 to 2 of f(x) = x**2 dx:  26.66666664999476
+Integral Approx of 0 to 4 of f(x) = x**2 dx:  213.31733370024912
+Integral Approx of 0 to 16 of f(x) = x**2 dx:  13653.333333169669
