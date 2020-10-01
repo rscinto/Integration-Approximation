@@ -72,5 +72,3 @@ print('Integral Approx of 0 to 4 of f(x) = x**2 dx: ', integralTwo.totalArea)
 
 integralTwo = Approx_Integral(0, 16)
 print('Integral Approx of 0 to 16 of f(x) = x**2 dx: ', integralTwo.totalArea)
-
-#here is a test 
